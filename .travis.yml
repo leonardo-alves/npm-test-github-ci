@@ -3,7 +3,7 @@ node_js:
 - 9
 - 8
 before_install:
-  - npm install -g rollup
+  - npm install
 deploy:
   provider: npm
   email: leo01_alves@hotmail.com
