@@ -3,6 +3,7 @@ node_js:
 - 9
 - 8
 before_install:
+  - npm i -g rollup
   - npm install
 deploy:
   provider: npm
