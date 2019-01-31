@@ -3,9 +3,10 @@ node_js:
 - 9
 - 8
 before_install:
-  - npm install -g yarn
-install:
-  - yarn
+  - npm i -g rollup@0.64.1
+build:
+  - ls
+  - npm run build
 deploy:
   provider: npm
   email: leo01_alves@hotmail.com
