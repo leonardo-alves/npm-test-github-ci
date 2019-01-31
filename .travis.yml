@@ -4,9 +4,6 @@ node_js:
 - 8
 before_install:
   - npm i -g rollup@0.64.1
-build:
-  - ls
-  - npm run build
 deploy:
   provider: npm
   email: leo01_alves@hotmail.com
