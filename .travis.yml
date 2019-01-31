@@ -6,6 +6,7 @@ before_install:
   - npm i -g rollup@0.64.1
 deploy:
   provider: npm
+  skip_cleanup: true
   email: leo01_alves@hotmail.com
   tag: next
   api_key:
