@@ -1,14 +1,24 @@
 language: node_js
 node_js:
 - 9
-- 8
 deploy:
-  provider: npm
-  skip_cleanup: true
-  email: leo01_alves@hotmail.com
-  tag: latest
-  api_key:
-    secure: $NPM_AUTH_KEY
-  on:
-    tags: true
-    repo: leonardo-alves/npm-test-github-ci
+  - provider: npm
+    skip_cleanup: true
+    email: leo01_alves@hotmail.com
+    tag: latest
+    api_key:
+      secure: $NPM_AUTH_KEY
+    on:
+      tags: true
+      repo: leonardo-alves/npm-test-github-ci
+  - provider: pages
+    - npm run build-storybook
+    skip_cleanup: true
+    email: leo01_alves@hotmail.com
+    tag: latest
+    github-token: $GITHUB_TOKEN
+    local_dir: storybook-static/
+    on:
+      branch: gh-pages
+      repo: leonardo-alves/npm-test-github-ci
+
