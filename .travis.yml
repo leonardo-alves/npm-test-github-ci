@@ -11,14 +11,3 @@ deploy:
     on:
       tags: true
       repo: leonardo-alves/npm-test-github-ci
-  - provider: pages
-    - npm run build-storybook
-    skip_cleanup: true
-    email: leo01_alves@hotmail.com
-    tag: latest
-    github-token: $GITHUB_TOKEN
-    local_dir: storybook-static/
-    on:
-      branch: gh-pages
-      repo: leonardo-alves/npm-test-github-ci
-
