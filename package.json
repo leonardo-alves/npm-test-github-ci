@@ -1,6 +1,6 @@
 {
   "name": "npm-test-github-ci",
-  "version": "1.1.1",
+  "version": "1.1.0",
   "description": "teste de ci de biblioteca no npm com github",
   "author": "Leonardo Alves",
   "homepage": "https://github.com/leonardo-alves/npm-test-github-ci",
