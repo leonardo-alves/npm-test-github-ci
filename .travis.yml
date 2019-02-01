@@ -4,6 +4,16 @@ node_js:
 - 8
 before_install:
   - npm i -g rollup@0.64.1
+  on:
+    tags: true
+install:
+  - npm install
+  on:
+    tags: true
+build:
+  - npm run build
+  on:
+    tags: true
 deploy:
   provider: npm
   skip_cleanup: true

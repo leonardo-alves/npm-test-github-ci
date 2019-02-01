@@ -3,6 +3,7 @@
   "version": "1.1.0",
   "description": "teste de ci de biblioteca no npm com github",
   "author": "Leonardo Alves",
+  "homepage": "https://github.com/leonardo-alves/npm-test-github-ci",
   "license": "MIT",
   "repository": "https://github.com/leonardo-alves/npm-test-github-ci",
   "main": "dist/index.js",
@@ -29,7 +30,7 @@
     "react": "^15.0.0 || ^16.0.0",
     "react-dom": "^15.0.0 || ^16.0.0"
   },
-  "dependencies": {
+  "devDependencies": {
     "@svgr/rollup": "^2.4.1",
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.5",

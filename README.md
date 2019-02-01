@@ -2,7 +2,7 @@
 
 > teste de ci de biblioteca no npm com github
 
-[![NPM](https://img.shields.io/npm/v/npm-test-github-ci.svg)](https://www.npmjs.com/package/npm-test-github-ci) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/npm-test-github-ci.svg)](https://www.npmjs.com/package/npm-test-github-ci) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-eslint_airbnb-eslint.svg)](https://www.npmjs.com/package/eslint-config-airbnb)
 
 ## Install
 
@@ -28,4 +28,4 @@ class Example extends Component {
 
 ## License
 
-MIT © [Leonardo Alves](https://github.com/Leonardo Alves)
+MIT © [Leonardo Alves](https://github.com/leonardo-alves)
