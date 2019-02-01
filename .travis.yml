@@ -8,7 +8,7 @@ deploy:
   email: leo01_alves@hotmail.com
   tag: latest
   api_key:
-    secure: PwBf+fqxIACfoITOmYnjM4U3BqLmTeCSEHtCJ3NrrxX5pz4W5Js2fElcAmXo9rhkmJcEkk6V2bGztEEEL3z2f5qQ8ouRrBKesYm1TJyIYX8np+CgfyTfxpNh0JDAqiLVEqykC2WLuqsLEjPLd0KetDPAzKQosKPv5tRS4qcFBEKXOzjeid/AGO12Ay3a+7ek6jdbtvHo11KegwEyvK7EOlh3WtUfnjEt0eq/2ftlK5gfn9XSS8B0i73woWZBst9ACQiOMlusz0+buImwBmthLY5226NDYnAX3L5nxTCQ/hnbmsm+3l6Xn7EM0hB55AVUhAZgWcMOY0//ABdr2r23nhZt2jNsfLlgtR2sZ2SswzQz4vbHKKEpV2f2tq5y1J9s73RcLz6adXE2UkKe+C2L4jElD136zwm7TsPA56SYuhD98B2V7MH1G9Fe4vdguMRbPC6+hLPzdHmUjxQBTLSp7LYLSROtHHR3oKJRCrEwozxdSvNk0jDmLDXBTbx1+icjq9T+H9a34KZy1mbHYy2JsJ5IYr9dg5Y3DQ37srzTnRxI5VNqoVFW0PsnDFpP6lXoRlDUxyLZdlQqA6BWEolUr+O1gF/TxhV0MgGD2o4cMPsZ/m9gqwXOXT9L2Ko84vXDE1yxMToZXMdb5ln22j7YJROdZO14OW8lvDcE7mCQkK4=
+    secure: $NPM_AUTH_KEY
   on:
     tags: true
     repo: leonardo-alves/npm-test-github-ci
