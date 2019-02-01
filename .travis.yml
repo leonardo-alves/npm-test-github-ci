@@ -2,10 +2,6 @@ language: node_js
 node_js:
 - 9
 - 8
-before_install:
-  - npm i -g rollup@0.64.1
-  on:
-    tags: true
 install:
   - npm install
   on:
